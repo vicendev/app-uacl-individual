@@ -1,8 +1,13 @@
 {
   "apps": [
     {
-      "appName": "App Planillas Semana 8",
+      "appName": "T3 App Planillas Semana 8",
       "route": "/payroll",
+      "icon": ""
+    },
+    {
+      "appName": "T3 App Estudiantes Semana 12",
+      "route": "/student",
       "icon": ""
     }
   ],

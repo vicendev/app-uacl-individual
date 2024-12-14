@@ -1,5 +1,3 @@
-
-import { useState } from 'react';
 import data from '../data/data.json';
 import { Payroll, PayrollDetails } from '../types/Payroll';
 import { TaxDetail } from '../types/SecondCategoryTax';

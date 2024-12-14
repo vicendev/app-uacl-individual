@@ -34,4 +34,14 @@ export class Helpers {
   }
 
   static isEmpty = (obj: object) => Object.keys(obj).length === 0;
+
+  static emailFormat (email: string) {
+    const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
+
+    return regex.test(email);
+  }
+
+  static positiveNumberFilter(value: string) {
+    return value.replace(/[^0-9]/g, "");
+  }
 }
